@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import './index.css';
 
 export default class About extends Component {
   render() {
-    return <div>This is about</div>;
+    return <div className="about">This is about</div>;
   }
 }

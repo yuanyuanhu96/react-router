@@ -1,0 +1,13 @@
+.navigator {
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  padding: 20px 20px;
+}
+.navigator .nav-links {
+  justify-self: end;
+  align-self: center;
+}
+
+.navigator .nav-links > * {
+  margin-left: 30px;
+}
